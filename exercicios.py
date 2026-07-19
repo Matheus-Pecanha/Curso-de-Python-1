@@ -60,15 +60,15 @@
 
 #Criando programa para comparar idade
 
-idade = int(input('Digite sua idade: '))
-b = 18
-idade1 = (idade >= b)
-idade2 = (idade < b)
-idade3 = (idade == b)
+# idade = int(input('Digite sua idade: '))
+# b = 18
+# idade1 = (idade >= b)
+# idade2 = (idade < b)
+# idade3 = (idade == b)
 
-print('A pessoa possui 18 anos ou mais: ', idade1)
-print('A pessoa é menor de idade: ', idade2)
-print('A idade é igual a 20 anos: ', idade3)
+# print('A pessoa possui 18 anos ou mais: ', idade1)
+# print('A pessoa é menor de idade: ', idade2)
+# print('A idade é igual a 20 anos: ', idade3)
 
 # Comparando preços
 
@@ -82,3 +82,34 @@ print('A idade é igual a 20 anos: ', idade3)
 # print('O primeiro produto é menor que o segundo: ', comparacao1)
 # print('O segundo produto é maior que  primeiro: ', comparacao2)
 # print('Os produtos possuem o mesmo preço: ', comparacao3)
+
+# Criando sistema para verificaçao
+
+# cadastro = True
+# senha = True
+
+# resultado = (cadastro == True) and (senha == True)
+
+# input('O usuário possui cadastro?: ')
+# input('Senha está correta?: ')
+
+# print('Resultado da validação: ', resultado)
+
+# Criando desconto para cliente VIP
+
+# cliente = False
+# compra = 500
+
+# resultado = (cliente == False) or (compra > 500)
+
+# input('Cliente é vip?: ')
+# input('Valor da compra: ')
+# print('Cliente participa da promoção?: ', resultado)
+
+# Criando sistema para verificar saldo de conta
+
+# conta = False
+# conta = not conta
+
+# input('A conta está bloqueada?: ')
+# print('A conta está liberada: ', conta)

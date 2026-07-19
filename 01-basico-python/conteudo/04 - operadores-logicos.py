@@ -1,17 +1,17 @@
 # Exemplos 
-idade = 25
-altura = 1.80
+# idade = 25
+# altura = 1.80
 
-# OPERADOR AND 
-resultado = (idade > 18) and (altura >= 1.78) 
-print(resultado) # True
+# # OPERADOR AND 
+# resultado = (idade > 18) and (altura >= 1.78) 
+# print(resultado) # True
 
-# OPERADOR OR
-porta = 'a'
-janela = 'f'
+# # OPERADOR OR
+# porta = 'a'
+# janela = 'f'
 
-alarme = (porta == 'a') or (janela == 'a')
-print('O alarme foi disparado:',alarme) # True
+# alarme = (porta == 'a') or (janela == 'a')
+# print('O alarme foi disparado:',alarme) # True
 
 # Operador NOT
 tem_dinheiro = False
