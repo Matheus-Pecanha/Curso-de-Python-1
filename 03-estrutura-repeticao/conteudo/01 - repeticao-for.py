@@ -25,10 +25,10 @@
 
 # print('==== Perguntar varias vezes algo ==== ')
 
-# qtd_pessoas = int(input('Quantas pessoas você quer cadastrar? '))
-# for i in range(qtd_pessoas):
-#     nome = input('Qual seu nome? ')
-#     print(f'Olá {nome}')
+qtd_pessoas = int(input('Quantas pessoas você quer cadastrar? '))
+for i in range(qtd_pessoas):
+    nome = input('Qual seu nome? ')
+    print(f'Olá {nome}')
 
 
 # Exemplo = tabuada do 9
@@ -38,8 +38,8 @@
 #     print(f'9 x {i} = {9*i}')
 
 #Pergunta ao usuario a tabuada de um numero e até quanto?
-tabuada = int(input('Qual tabuada você quer saber? '))
-vezes = int(input('Até quantas vezes? '))
+# tabuada = int(input('Qual tabuada você quer saber? '))
+# vezes = int(input('Até quantas vezes? '))
 
-for i in range(vezes):
-    print(f'{tabuada} * {i} = {tabuada * i}')
+# for i in range(vezes):
+#     print(f'{tabuada} * {i} = {tabuada * i}')

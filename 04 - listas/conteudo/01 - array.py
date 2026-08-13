@@ -26,9 +26,18 @@
 # Usando for para fazer soma
 
 carrinho_compras = [150, 260, 100, 50, 60]
-soma = 0
 
-for i in carrinho_compras:
-    soma = soma + i
 
-print(f'A soma total dos produtos foi de R$ {soma},00')
+# def sumpreco(array: list) -> int:
+#     soma = 0
+#     for i in array:
+#         soma = soma + i
+
+#     return soma
+
+# print(sumpreco('10'))
+def soma(x: int, y: int) -> int:
+   return x + y
+
+print(soma('a','a'))
+# print(f'A soma total dos produtos foi de R$ {soma},00')
