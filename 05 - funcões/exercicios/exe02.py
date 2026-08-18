@@ -16,3 +16,5 @@ lista = [1,2,3,4,5]
 # somaCarrinho_compras = 0
 
 print(somalista(carrinho_compras))
+
+
